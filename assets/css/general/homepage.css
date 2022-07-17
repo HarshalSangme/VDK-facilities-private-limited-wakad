@@ -46,6 +46,27 @@
     height: 400px;
 }
 
+/* ******************************** OUR SERVICES BVG ***************************/
+
+.OurStory {
+    padding-bottom: 4rem
+    
+}
+
+.OurStory h2 {
+    font-size: 48px;
+    font-weight: var(--bold) !important;
+    color: #2a5392;
+    margin: 60px 0 40px
+}
+
+.OurStory p {
+    font-size: 22px;
+    margin-bottom: 20px
+}
+
+
+
 
 /* ******************************** ABOUT US PAGE CSS ***************************/
 
