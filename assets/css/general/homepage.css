@@ -46,7 +46,7 @@
     height: 400px;
 }
 
-/* ******************************** OUR SERVICES BVG ***************************/
+/* ******************************** OUR STORYS BVG ***************************/
 
 .OurStory {
     padding-bottom: 4rem
@@ -56,16 +56,26 @@
 .OurStory h2 {
     font-size: 48px;
     font-weight: var(--bold) !important;
-    color: #2a5392;
+    color: #952e2f;
     margin: 60px 0 40px
 }
 
 .OurStory p {
     font-size: 22px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    color: #6fa449;
+    padding: 15px 120px 15px 120px;
 }
 
+/* **************************** Our Services ************************************ */
 
+.our-services-sec-container {
+    padding: 15px 100px 15px 100px;
+}
+
+.our-services-h3 {
+    color: #952e2f;
+}
 
 
 /* ******************************** ABOUT US PAGE CSS ***************************/
