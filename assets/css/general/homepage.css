@@ -7,75 +7,82 @@
 
 .nav-list-color {
     color: black;
+} 
+
+/* ************************************ Section1 Image slider ***************************** */
+
+.section1-img-slider-con {
+    margin: 78px 0 0 0;
 }
 
-.sec-vision {
-    margin-top: 250px;
-}
+.carousel-inner > .item > img {
+    width:100%;
+    height:360px;
+  }
 
-#vision-para {
-    color: #2a5392;
-    font-family: sans-serif;
-    margin-left: 50px;
-    margin-right: 50px;
-}
+/* spacing container */
 
-#vision-head {
-    margin-top: 50px;
-    margin-bottom: 40px;
-}
-
-.our-services-img {
-    width: 50%;
-    border-radius: 50%;
-    margin: 0 auto;
-    box-shadow: 0 0 10px rgba(0,0,0,.2);
-}
-
-.sec-sectors-serve {
+.spacing-pink {
     width: 100%;
-    height: 500px;
-    background-color: lightgreen;
-    margin-right: 20px;
-    padding-bottom: 200px;
-    padding-left: 150px;
-    padding-right: 180px;
+    height: 75px;
+    background-color: #fef4dc;
+    margin-bottom: 0px;
 }
 
-.carousal-box-css {
-    height: 400px;
+/* ******************************** Section2 About == IMAGE CSS ***************************/
+
+.service2-main-con {
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 65vh;
+    background-color: #fef4dc;
+} 
+
+.heading-service2 {
+    margin: 85px 0 0 140px;
+    color: #2c1728;
+    font-size: 65px;
+    font-weight: 400;
 }
 
-/* ******************************** OUR STORYS BVG ***************************/
-
-.OurStory {
-    padding-bottom: 4rem
-    
+.heading-service2 .span-service2 {
+    color: #7F171F;
+    font-size: 50px;
+    font-weight: 500;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-.OurStory h2 {
-    font-size: 48px;
-    font-weight: var(--bold) !important;
-    color: #952e2f;
-    margin: 60px 0 40px
+.para-service2 {
+    margin: 25px 0 30px 140px;
+    color: #7b7061;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
 }
 
-.OurStory p {
-    font-size: 22px;
-    margin-bottom: 20px;
-    color: #6fa449;
-    padding: 15px 120px 15px 120px;
+.linktg-service-2 {
+    margin: 100px 0 0 140px;
+    color: black;
 }
+
+.img-service2-con {
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+    background-color: rgb(250, 241, 241);
+}
+
+.img-service2-con img {
+    width: 100%;
+    height: 100%;
+}
+
+
 
 /* **************************** Our Services ************************************ */
 
-.our-services-sec-container {
-    padding: 15px 100px 15px 100px;
-}
-
-.our-services-h3 {
-    color: #952e2f;
-}
 
 
 /* ******************************** ABOUT US PAGE CSS ***************************/

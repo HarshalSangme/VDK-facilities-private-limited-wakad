@@ -23,10 +23,6 @@
         <!-- Earth Works Css -->
         <link rel="stylesheet" href="../../assets/css/general/earthWorkStyle.css">
 
-        <!-- footer css -->
-        <link rel="stylesheet" href="../../assets/css/general/footer.css">
-
-
         <!-- Font awesome -->
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -431,7 +427,7 @@ $(document).ready(function(){
 });
         
         </script> -->
-
+<!-- 
         <script>
                 
                 $('.owl-carousel').owlCarousel({
@@ -442,7 +438,7 @@ $(document).ready(function(){
 })
 
 
-    </script>
+    </script> -->
 
 
 </body>
