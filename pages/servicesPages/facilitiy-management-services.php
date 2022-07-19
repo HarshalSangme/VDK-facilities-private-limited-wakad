@@ -24,6 +24,10 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+        <!-- owl css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
         <title>Hello, world!</title>
 </head>
 
@@ -215,28 +219,59 @@
 
         <!-- SERVICE SECION 2 -->
 
-        <section>
+  <section>
 
-                <div class="service2-contanier">
+     <div class="section2-container">
+        
+        <h2 class="section2-h1-heading"> Facilitiy Management Services by <span class="text-danger">VDK</span></h2>
+        
+        <div class="row">
+            <!-- <div class="col-12 m-auto"> -->
+                <div class="owl-carousel owl-theme">
 
-                        <div class="row">
-
-                                <div class="col-md-12">
-                                        <div class="owl-carousel owl-theme">
-
-                                                <div class="item"> 
-                                                        <div class="card"> 
-                                                                <img src="../../assets/images/Service-section-imgs/facli.jpg " alt="">
-                                                        </div>
-                                                </div>
-
-                                        </div>
-                                </div>
-
+                        <div class="item">
+                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
                         </div>
-                </div> 
 
-        </section>
+                        <div class="item">
+                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
+                        </div>
+
+                        <div class="item">
+                                <img src="../../assets/images/management.jpeg" alt="">
+                        </div>
+
+                        <div class="item">
+                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
+                        </div>
+
+                        <div class="item">
+                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
+                        </div>
+
+                        <div class="item">
+                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
+                        </div>
+
+                        <div class="item">
+                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
+                        </div>
+
+                        <div class="item">
+                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
+                        </div>
+
+                        <div class="item">
+                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
+                        </div>
+
+     
+                </div>
+            <!-- </div> -->
+        </div>
+   </div>
+
+</section> 
 
 
 
@@ -332,7 +367,52 @@
                 AOS.init();
         </script>
 
+        <!-- owl -->
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+        <!-- <script>
+                
+$(document).ready(function(){
+  
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+})
+
+});
+        
+        </script> -->
+
+        <script>
+                
+                $('.owl-carousel').owlCarousel({
+    margin:10,
+    loop:true,
+    autoWidth:true,
+    items:3
+})
+
+
+    </script>
 
 
 </body>
