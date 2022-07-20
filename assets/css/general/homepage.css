@@ -6,15 +6,15 @@
 }
 
 .navbar-nav > li{
-    padding-left:25px;
-    padding-right:25px;
+    padding-left:18px;
+    padding-right:18px;
 }
 
 .navbar-nav li a {
     text-decoration: none;
     font-weight: 600;
     line-height: 25px;
-    font-size: 17px;
+    font-size: 17px ;
 }
 
 .nav-list-color {
