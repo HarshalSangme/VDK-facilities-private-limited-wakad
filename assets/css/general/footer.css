@@ -1,6 +1,6 @@
 .footer-container {
     background-color: #21283c;
-    height: 400px;
+    height: 450px;
 }
 
 .ft-container-main {
@@ -17,9 +17,52 @@
     background-color: white;
     color: #2a5392;
     box-shadow: 0 0 20px rgba(0,0,0,.2);
-    /* width: 90px;
-    height: 40px; */
     padding: 10px 35px 10px 35px;
     font-size: medium;
     font-weight: 600;
+}
+
+/* Media Queries of footer */
+
+/* @media screen and (max-width: 976px) {
+    .footer-container {
+        background-color: #21283c;
+        height: 65vh;
+    }
+} */
+
+@media screen and (max-width: 976px) {
+    .footer-container {
+        background-color: #21283c;
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-container {
+        background-color: #21283c;
+        height: 160vh;
+    }
+}
+
+@media screen and (max-width: 328px) {
+    .footer-container {
+        background-color: #21283c;
+        height: 165vh;
+    }
+}
+
+@media screen and (max-width: 276px) {
+    .footer-container {
+        background-color: #21283c;
+        height: 170vh;
+    }
+}
+
+
+@media screen and (max-width: 250px) {
+    .footer-container {
+        background-color: #21283c;
+        height: 175vh;
+    }
 }

@@ -5,6 +5,18 @@
     background-color: white;
 }
 
+.navbar-nav > li{
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 17px;
+}
+
 .nav-list-color {
     color: black;
 } 
@@ -82,6 +94,57 @@
 
 
 /* **************************** Our Services ************************************ */
+.container-our-services {
+    padding-top: 10px;
+}
+
+.container-our-services h2 {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: #7f171f;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.container-our-services h3 {
+    color: #7f171f;
+}
+
+.container-our-services a {
+    text-decoration: none;
+}
+
+.container-our-services a p {
+    font-size: 16px;
+    font-weight: var(--reguler) !important;
+    line-height: 1.4;
+    min-height: 120px;
+    color: rgb(0, 6, 0);
+}
+
+.container-our-services {
+    border-bottom: 4px solid  #7F171F;
+    margin-bottom: 15px;
+}
+
+/* ************************************* Clients **************************** */
+
+.clients-served {
+    background: #f2f2f2;
+    padding-bottom: 6rem;
+}
+
+.clients-served .sec-title {
+    margin: 5rem 0 3rem;
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: #7f171f;
+}
+
+.clients-served img {
+    padding-bottom: 3rem
+}
+
 
 
 
@@ -190,3 +253,456 @@
     font-weight: 700;
     line-height: 28px;
  }
+
+
+
+
+ /* ************************************* Media Queries ************************************ */
+
+ @media screen and (max-width: 992px) {
+
+    /* Section2 about  */
+    .service2-main-con {
+        margin: 0 0 0 0;
+        width: 100%;
+        height: 120vh;
+        background-color: #fef4dc;
+    }
+
+    /* OUR SERVICE SECTION 3 */
+    .container-our-services {
+        margin-top: 0;
+        padding-top: 10px;
+    }
+    
+    .container-our-services h2 {
+        margin-bottom: 10px;
+        margin-top: 0;
+        color: #7f171f;
+        font-weight: 600;
+        font-size: 45px;
+    }
+    
+    .container-our-services h3 {
+        color: #7f171f;
+    }
+ }
+
+
+
+ /* At 967 */
+
+@media screen and (max-width: 967px) { 
+
+    /* spacing container */
+
+    .spacing-pink {
+        width: 100%;
+        height: 12px;
+        background-color: #fef4dc;
+        margin-bottom: 0px;
+    }
+
+    /* Section2 About == IMAGE CSS */
+
+    .service2-main-con {
+        margin: 0 0 0 0;
+        width: 100%;
+        height: 110vh;
+        background-color: #fef4dc;
+    }
+    
+
+    .heading-service2 {
+        margin: 12px 0 0 90px;
+        color: #2c1728;
+        font-size: 55px;
+        font-weight: 400;
+    }
+    
+    .heading-service2 .span-service2 {
+        color: #7F171F;
+        font-size: 40px;
+        font-weight: 500;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .para-service2 {
+        margin: 25px 0 30px 90px;
+        color: #7b7061;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    
+    .linktg-service-2 {
+        margin: 100px 0 0 90px;
+        color: black;
+    }
+
+    /* IMG CON (About == IMG) */
+
+    .img-service2-con {
+        margin: 0 0 0 0;
+        width: 100%;
+        height: 65vh;
+        object-fit: cover;
+        background-color: rgb(250, 241, 241);
+    }
+
+    .img-service2-icon-res {
+        margin-top: 25px;
+    }
+
+    /* Our Services section 2 */
+
+    .container-our-services {
+        margin-top: 10vh;
+        padding-top: 0;
+    }
+}
+
+ /* At 793px */
+
+ @media screen and (max-width: 793px) { 
+
+    /* spacing container */
+
+    .spacing-pink {
+        width: 100%;
+        height: 35px;
+        background-color: #fef4dc;
+        margin-bottom: 0px;
+    }
+
+    /* Section2 About == IMAGE CSS */
+
+    /* Section 2 about  */
+    .service2-main-con {
+        margin: 0 0 0 0;
+        width: 100%;
+        height: 110vh;
+        background-color: #fef4dc;
+    }
+
+    .heading-service2 {
+        margin: 35px 0 0 55px;
+        color: #2c1728;
+        font-size: 50px;
+        font-weight: 400;
+    }
+    
+    .heading-service2 .span-service2 {
+        color: #7F171F;
+        font-size: 40px;
+        font-weight: 500;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .para-service2 {
+        margin: 20px 0 15px 55px;
+        color: #7b7061;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    
+    .linktg-service-2 {
+        margin: 30px 0 45px 55px;
+        color: black;
+    }
+
+    /* IMG CON (About == IMG) */
+
+    .img-service2-icon-res {
+        margin-top: 25px;
+    }
+
+    /* Our Services section 2 */
+
+    .container-our-services {
+        margin-top: 5vh;
+        padding-top: 5px;
+    }
+} 
+
+
+ /* At 630px IMG ( About == IMG )*/
+ @media screen and (max-width: 630px) { 
+
+
+    /* Section 2 about  */
+
+    .service2-main-con {
+        margin: 0 0 0 0;
+        width: 100%;
+        height: 95vh;
+        background-color: #fef4dc;
+    }
+    
+
+    .img-service2-con {
+        margin: 0 0 0 0;
+        width: 100%;
+        height: 45vh;
+        object-fit: cover;
+        background-color: rgb(250, 241, 241);
+    }
+
+    .spacing-pink {
+        width: 100%;
+        height: 10px;
+    }
+
+    /* Our Services section 2 */
+
+    .container-our-services {
+        margin-top: 3vh;
+        padding-top: 0;
+    }
+
+    .container-our-services h2 {
+        margin-bottom: 0;
+        margin-top: 0;
+        color: #7f171f;
+        font-weight: 600;
+        font-size: 45px;
+    }
+
+    .container-our-services .row {
+        margin-top: 0%;
+    }
+ }
+
+
+
+
+
+ /* At 547px*/
+
+ @media screen and (max-width: 547px) { 
+
+    /* spacing container */
+
+    .spacing-pink {
+        width: 100%;
+        height: 35px;
+        background-color: #fef4dc;
+        margin-bottom: 0px;
+    }
+
+    /* Section2 About == IMAGE CSS */
+
+    .heading-service2 {
+        margin: 25px 0 0 42px;
+        color: #2c1728;
+        font-size: 50px;
+        font-weight: 400;
+    }
+    
+    .heading-service2 .span-service2 {
+        color: #7F171F;
+        font-size: 40px;
+        font-weight: 500;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .para-service2 {
+        margin: 20px 0 15px 42px;
+        color: #7b7061;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    
+    .linktg-service-2 {
+        margin: 30px 0 45px 42px;
+        color: black;
+    }
+
+    /* IMG CON (About == IMG) */
+
+    .img-service2-icon-res {
+        margin-top: 20px;
+    }
+}
+
+
+ /* At 407px IMG ( About == IMG )*/
+ @media screen and (max-width: 407px) { 
+    .img-service2-con {
+        margin: 0 0 0 0;
+        width: 100%;
+        height: 35vh;
+        object-fit: cover;
+        background-color: rgb(250, 241, 241);
+    }
+
+    .img-service2-icon-res {
+        margin-top: 28px;
+    }
+ }
+
+
+ /* At 393px */
+
+ @media screen and (max-width: 393px) { 
+
+    /* spacing container */
+
+    .spacing-pink {
+        width: 100%;
+        height: 35px;
+        background-color: #fef4dc;
+        margin-bottom: 0px;
+    }
+
+    /* Section2 About == IMAGE CSS */
+
+    .heading-service2 {
+        margin: 25px 0 0 25px;
+        color: #2c1728;
+        font-size: 50px;
+        font-weight: 400;
+    }
+    
+    .heading-service2 .span-service2 {
+        color: #7F171F;
+        font-size: 40px;
+        font-weight: 500;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .para-service2 {
+        margin: 20px 0 15px 25px;
+        color: #7b7061;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    
+    .linktg-service-2 {
+        margin: 30px 0 45px 25px;
+        color: black;
+    }
+
+    /* IMG CON (About == IMG) */
+
+    .img-service2-icon-res {
+        margin-top: 20px;
+    }
+}
+
+ /* At 305px */
+
+ @media screen and (max-width: 305px) { 
+
+    /* spacing container */
+
+    .spacing-pink {
+        width: 100%;
+        height: 35px;
+        background-color: #fef4dc;
+        margin-bottom: 0px;
+    }
+
+    /* Section2 About == IMAGE CSS */
+
+    .heading-service2 {
+        margin: 25px 0 0 25px;
+        color: #2c1728;
+        font-size: 45px;
+        font-weight: 400;
+    }
+    
+    .heading-service2 .span-service2 {
+        color: #7F171F;
+        font-size: 35px;
+        font-weight: 500;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .para-service2 {
+        margin: 20px 0 15px 25px;
+        color: #7b7061;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    
+    .linktg-service-2 {
+        margin: 30px 0 45px 25px;
+        color: black;
+    }
+
+    /* IMG CON (About == IMG) */
+
+    .img-service2-con {
+        margin: 0 0 0 0;
+        width: 100%;
+        height: 25vh;
+        object-fit: cover;
+        background-color: rgb(250, 241, 241);
+    }
+
+    .img-service2-icon-res {
+        margin-top: 23px;
+    }
+
+
+}
+
+/* At 257 */
+
+@media screen and (max-width: 257px) { 
+
+    /* spacing container */
+
+    .spacing-pink {
+        width: 100%;
+        height: 35px;
+        background-color: #fef4dc;
+        margin-bottom: 0px;
+    }
+
+    /* Section2 About == IMAGE CSS */
+
+    .heading-service2 {
+        margin: 25px 0 0 20px;
+        color: #2c1728;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    
+    .heading-service2 .span-service2 {
+        color: #7F171F;
+        font-size: 30px;
+        font-weight: 500;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .para-service2 {
+        margin: 20px 0 15px 20px;
+        color: #7b7061;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    
+    .linktg-service-2 {
+        margin: 30px 0 45px 20px;
+        color: black;
+    }
+
+    /* IMG CON (About == IMG) */
+
+    .img-service2-icon-res {
+        margin-top: 20px;
+    }
+}
