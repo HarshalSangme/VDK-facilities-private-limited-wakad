@@ -20,9 +20,6 @@
         <!-- Service Section Css -->
         <link rel="stylesheet" href="../../assets/css/general/servicesSectionCommon.css">
 
-        <!-- Earth Works Css -->
-        <link rel="stylesheet" href="../../assets/css/general/earthWorkStyle.css">
-
         <!-- Font awesome -->
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -183,78 +180,61 @@
                         </div>
                 </div>
         </nav>
-        <!-- ----------------------------------EARTH WORK SECTIONS ------------------------------->
-<!-- SERVICE SECTION 1 -->
+        <!-- ----------------------------------SECTIONS ------------------------------->
+
+        <!-- SERVICE SECTION 1 -->
         <section>
 
-                <div class="row earth-service1-container">
-
-                        <div class="col ">
-                                <div class="earth-service1-img-con">
-                                        <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
-                                </div>
-                        </div>        
-                
+                <div class="row service1-container">
 
                         <div class="col">
-                                <h2 class="earth-heading-service"> CIVIL ENGINEERING WORKED </h2>
+                                <h2 class="heading-service">Road Development</h2>
 
-                                <div class="earth-span-line"></div>
+                                <div class="span-line"></div>
 
-                                <p class="earth-service1-para mt-4">
-                                Typical earthworks include road construction, railway beds, causeways, dams, levees, canals, and berms. 
-                               
+                                <p class="service1-para">
+                                Excavations in the sites of Indus valley revealed the existence of planned roads in India
+                                as old as 2500-3500 BC. The Mauryan kings also built very good roads, During the time
+                                of Mughal period, roads in India were greatly improved, Roads linking North-West and the
+                                Eastern areas through gangetic plains were built during this time. The construction of
+                                Grand-Trunk road connecting North and South is a major contribution of the British.
                                 <br><br>
-                                Other common earthworks are land grading to reconfigure the topography of a site, or to stabilize slopes.       
-                                       
+                                MODERN DEVELOPMENT <br>
+                                The First World War period and that
+                                transport. So need for better roads
+                                appointed a committee called Road
+                                chairman. This committee came to
+                                immediately following it found a rapid growth in motor
+                                became a necessity. For that, the Government of India
+                                developement Committee with Mr. M.R. Jayakar as the
+                                be known as Jayakar Committee.
                                 </p>
 
+                        </div>
+
+
+
+                        <div class="col ">
+                                <div class="service1-img-con">
+                                        <img src="../../assets/images/Service-section-imgs/road-development.jpeg" alt="">
+                                </div>
                         </div>
 
                 </div>
 
         </section>
 
-<!-- SERVICE SECTION 2 -->
-<section>
-        <div class="row earth-service2-container">
+        <!-- SERVICE SECION 2 -->
 
-                        <div class="col">
-                                <h2 class="earth-heading-service-section2"> EQUIPMENT SERVICES </h2>
-
-                                <div class="earth-span-line-section2"></div>
-
-                                <p class="earth-service1-para-section2 mt-4">
-                                Heavy construction equipement is usually used due to the amounts of material to be moved -up to millions of cubic metres.
-                               
-                                <br><br>
-                                Earthwork construction was revolutionized by the development of the (Fresno) scraper and other earth-moving
-                                machines such as the loader, the dump truck, the grader, the bulldozer, the backhoe, and the dragline excavator.       
-                                       
-                                </p>
-
-                        </div>
-
-                        <div class="col ">
-                                <div class="earth-service1-img-con">
-                                        <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
-                                </div>
-                        </div>
-
-                </div>
-</section>
-
-        <!-- SERVICE SECION 3 -->
-
-  <!-- <section>
+  <section>
 
      <div class="section2-container">
         
-        <h2 class="section2-h1-heading">Landspace Gardening by <span class="text-danger">VDK</span></h2>
+        <h2 class="section2-h1-heading"> Facilitiy Management Services by <span class="text-danger">VDK</span></h2>
         
         <div class="row">
             <!-- <div class="col-12 m-auto"> -->
-                <!-- <div class="owl-carousel owl-theme">
+                <div class="owl-carousel owl-theme">
 
                         <div class="item">
                                 <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
@@ -293,12 +273,12 @@
                         </div>
 
      
-                </div> -->
+                </div>
             <!-- </div> -->
         </div>
    </div>
 
-<!-- </section>  -->
+</section> 
 
 
 
@@ -375,6 +355,7 @@
         </footer>
 
 
+
         <!-- Optional JavaScript; choose one of the two! -->
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -427,7 +408,7 @@ $(document).ready(function(){
 });
         
         </script> -->
-<!-- 
+
         <script>
                 
                 $('.owl-carousel').owlCarousel({
@@ -438,7 +419,7 @@ $(document).ready(function(){
 })
 
 
-    </script> -->
+    </script>
 
 
 </body>
