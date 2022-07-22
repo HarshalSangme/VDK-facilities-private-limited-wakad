@@ -33,44 +33,92 @@
 
 <body>
 
-        <nav class="navbar fixed-top navbar-expand-lg">
+<nav class="navbar fixed-top navbar-expand-lg">
                 <div class="container">
                         <a class="navbar-brand" href="/">
-                                <img src="../../assets/images/logo/logo.png" alt="" width="120" height="50" class="d-inline-block align-text-top">
+                                <img src="../../assets/images/logo/logo.png" alt="" width="120" height="50"
+                                        class="d-inline-block align-text-top">
                         </a>
 
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <!-- <span class="navbar-toggler-icon"></span> -->
+                                <i class="fa fa-bars hams-color"></i>
                         </button>
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                                <ul class="navbar-nav ms-auto ml-auto ">
 
                                         <li class="nav-item">
-                                                <a class=" nav-list-color nav-link" aria-current="page" href="/">HOME</a>
+                                                <a class=" nav-list-color nav-link" aria-current="page"
+                                                        href="/">HOME</a>
                                         </li>
 
                                         <li class="nav-item dropdown">
-                                                <a class=" nav-list-color nav-link" href="../../pages/navbarPages/aboutUs.html">ABOUT US</a>
+                                                <a class=" nav-list-color nav-link"
+                                                        href="../../pages/navbarPages/aboutUs.html">ABOUT US</a>
                                         </li>
 
                                         <li class="nav-item dropdown">
-                                                <a class=" nav-list-color nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a class=" nav-list-color nav-link dropdown-toggle" href="#"
+                                                        id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                                        aria-expanded="false">
                                                         SERVICES
                                                 </a>
                                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                        <li><a class="dropdown-item" href="../../pages/servicesPages/serviceOne.html">SERVICE ONE</a></li>
-                                                        <li><a class="dropdown-item" href="../../pages/servicesPages/serviceTwo.html">
-                                                                        SERVICE TWO </a></li>
-                                                        <li><a class="dropdown-item" href="../../pages/servicesPages/serviceThree.html">
-                                                                        SERVICE THREE
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/facilitiy-management-services.php">
+                                                                        Facilitiy management services</a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/machanized-housekeeping.php">
+                                                                        Machanized housekeeping </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/solid-waste-management.php">
+                                                                        Solid waste management
                                                                 </a></li>
-                                                        <li><a class="dropdown-item" href="../../pages/servicesPages/serviceFour.html">
-                                                                        SERVICE FOUR
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/landspace-gardening.php">
+                                                                        Plasma Technology for 100% waste processing
                                                                 </a></li>
-                                                        <li><a class="dropdown-item" href="../../pages/servicesPages/serviceFive.html">SERVICE FIVE</a></li>
-                                                        <li><a class="dropdown-item" href="../../pages/servicesPages/serviceSix.html">SERVICE SIX</a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="#">
+                                                                        Landspace Gardening
+                                                                </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/shed-work.php">
+                                                                        Shed Work
+                                                                </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/earth-works.php">
+                                                                        Earth Works
+                                                                </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/civil-works.php">
+                                                                        Civil Works
+                                                                </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/landfill-development.php">
+                                                                        Landfill Development
+                                                                </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/wall-compound.php">
+                                                                        Wall Compound
+                                                                </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/road-development.php">
+                                                                        Road Development
+                                                                </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/interior.php">
+                                                                        Interior
+                                                                </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/manpower-supply.php">
+                                                                        Manpower Supply
+                                                                </a></li>
+
                                                         <!-- <li><a class="dropdown-item"
                                                                         href="pages/whatWeOfferPages/technical-services.html">TECHNICAL
                                                                         SERVICES</a></li>
@@ -84,99 +132,27 @@
                                                 </ul>
                                         </li>
 
-                                        <li class="nav-item dropdown">
-                                                <a class=" nav-list-color nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                        SECTORS
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/hotel-management.html">HOTEL
-                                                                        MANAGEMENT</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/property-development.html">
-                                                                        PROPERTY DEVELOPMENT </a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/design-management.html">DESIGN
-                                                                        MANAGEMENT</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/human-resources-training.html">HUMAN
-                                                                        RESOURCE AND
-                                                                        TRAINING</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/marketing-revenue.html">MARKETING
-                                                                        & REVENUE MANAGEMENT</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/brand-compliance.html">BRAND
-                                                                        COMPLIANCE</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/technical-services.html">TECHNICAL
-                                                                        SERVICES</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/finance-and-accounting.html">FINANCE
-                                                                        AND ACCOUNTING</a>
-                                                        </li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/sales.html">SALES</a>
-                                                        </li>
-                                                </ul>
+                                        <li class="nav-item">
+                                                <a class="nav-list-color nav-link"
+                                                        href="../../pages/navbarPages/career-pg.php">CAREER</a>
                                         </li>
-
-                                        <li class="nav-item dropdown">
-                                                <a class=" nav-list-color nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                        INSIGHTS
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/hotel-management.html">HOTEL
-                                                                        MANAGEMENT</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/property-development.html">
-                                                                        PROPERTY DEVELOPMENT </a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/design-management.html">DESIGN
-                                                                        MANAGEMENT</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/human-resources-training.html">HUMAN
-                                                                        RESOURCE AND
-                                                                        TRAINING</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/marketing-revenue.html">MARKETING
-                                                                        & REVENUE MANAGEMENT</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/brand-compliance.html">BRAND
-                                                                        COMPLIANCE</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/technical-services.html">TECHNICAL
-                                                                        SERVICES</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/finance-and-accounting.html">FINANCE
-                                                                        AND ACCOUNTING</a>
-                                                        </li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/sales.html">SALES</a>
-                                                        </li>
-                                                </ul>
-                                        </li>
-
-                                        <li class="nav-item dropdown">
-                                                <a class="nav-list-color nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                        INVERSTOR RELATIONS
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/hotel-management.html">HOTEL
-                                                                        MANAGEMENT</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/property-development.html">
-                                                                        PROPERTY DEVELOPMENT </a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/design-management.html">DESIGN
-                                                                        MANAGEMENT</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/human-resources-training.html">HUMAN
-                                                                        RESOURCE AND
-                                                                        TRAINING</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/marketing-revenue.html">MARKETING
-                                                                        & REVENUE MANAGEMENT</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/brand-compliance.html">BRAND
-                                                                        COMPLIANCE</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/technical-services.html">TECHNICAL
-                                                                        SERVICES</a></li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/finance-and-accounting.html">FINANCE
-                                                                        AND ACCOUNTING</a>
-                                                        </li>
-                                                        <li><a class="dropdown-item" href="pages/whatWeOfferPages/sales.html">SALES</a>
-                                                        </li>
-                                                </ul>
-                                        </li>
-
-
 
                                         <li class="nav-item">
-                                                <a class="nav-list-color nav-link" href="forms/partnerContactForm/partner.php">ENQUIRY</a>
+                                                <a class="nav-list-color nav-link"
+                                                        href="../../pages/navbarPages/enquiry-pg.php">ENQUIRY</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                                <a class="nav-list-color nav-link"
+                                                        href="../../pages/contactUsPages/contactUsForm.php">CONTACT US</a>
                                         </li>
 
 
                                 </ul>
-
+                                <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
                         </div>
                 </div>
         </nav>
@@ -187,7 +163,7 @@
 
                 <div class="row service1-container">
 
-                        <div class="col">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
                                 <h2 class="heading-service"> LANDSCAPE GARDENING - LANDSCAPE </h2>
 
                                 <div class="span-line"></div>
@@ -209,7 +185,7 @@
 
 
 
-                        <div class="col ">
+                        <div class="col-lg-6 col-md-12 col-sm-12 ">
                                 <div class="service1-img-con">
                                         <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
                                 </div>
@@ -221,59 +197,7 @@
 
         <!-- SERVICE SECION 2 -->
 
-  <section>
 
-     <div class="section2-container">
-        
-        <h2 class="section2-h1-heading">Landspace Gardening by <span class="text-danger">VDK</span></h2>
-        
-        <div class="row">
-            <!-- <div class="col-12 m-auto"> -->
-                <div class="owl-carousel owl-theme">
-
-                        <div class="item">
-                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
-                        </div>
-
-                        <div class="item">
-                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
-                        </div>
-
-                        <div class="item">
-                                <img src="../../assets/images/management.jpeg" alt="">
-                        </div>
-
-                        <div class="item">
-                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
-                        </div>
-
-                        <div class="item">
-                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
-                        </div>
-
-                        <div class="item">
-                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
-                        </div>
-
-                        <div class="item">
-                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
-                        </div>
-
-                        <div class="item">
-                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
-                        </div>
-
-                        <div class="item">
-                                <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
-                        </div>
-
-     
-                </div>
-            <!-- </div> -->
-        </div>
-   </div>
-
-</section> 
 
 
 

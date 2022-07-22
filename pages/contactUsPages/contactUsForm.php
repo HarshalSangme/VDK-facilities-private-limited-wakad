@@ -41,7 +41,8 @@
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                                <!-- <span class="navbar-toggler-icon"></span> -->
+                                <i class="fa fa-bars hams-color"></i>
                         </button>
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -54,6 +55,11 @@
                                         </li>
 
                                         <li class="nav-item dropdown">
+                                                <a class=" nav-list-color nav-link"
+                                                        href="../../pages/navbarPages/aboutUs.html">ABOUT US</a>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
                                                 <a class=" nav-list-color nav-link dropdown-toggle" href="#"
                                                         id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                                                         aria-expanded="false">
@@ -61,22 +67,56 @@
                                                 </a>
                                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                         <li><a class="dropdown-item"
-                                                                        href="pages/servicesPages/facilitiy-management-services.php">Facilitiy management services</a></li>
+                                                                        href="../../pages/servicesPages/facilitiy-management-services.php">
+                                                                        Facilitiy management services</a></li>
                                                         <li><a class="dropdown-item"
-                                                                        href="pages/servicesPages/machanized-housekeeping.php">
+                                                                        href="../../pages/servicesPages/machanized-housekeeping.php">
                                                                         Machanized housekeeping </a></li>
                                                         <li><a class="dropdown-item"
-                                                                        href="pages/servicesPages/solid-waste-management.php">
-                                                                        Solid waste management       
+                                                                        href="../../pages/servicesPages/solid-waste-management.php">
+                                                                        Solid waste management
                                                                 </a></li>
                                                         <li><a class="dropdown-item"
-                                                                        href="pages/servicesPages/landspace-gardening.php">
+                                                                        href="../../pages/servicesPages/landspace-gardening.php">
+                                                                        Plasma Technology for 100% waste processing
+                                                                </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/shed-work.php">
                                                                         Landspace Gardening
-                                                                        </a></li>
+                                                                </a></li>
                                                         <li><a class="dropdown-item"
-                                                                        href="pages/servicesPages/earth-works.php">Earth Works</a></li>
+                                                                        href="../../pages/servicesPages/shed-work.php">
+                                                                        Shed Work
+                                                                </a></li>
                                                         <li><a class="dropdown-item"
-                                                                        href="pages/servicesPages/serviceSix.html">SERVICE SIX</a></li>
+                                                                        href="../../pages/servicesPages/earth-works.php">
+                                                                        Earth Works
+                                                                </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/civil-works.php">
+                                                                        Civil Works
+                                                                </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/landfill-development.php">
+                                                                        Landfill Development
+                                                                </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/wall-compound.php">
+                                                                        Wall Compound
+                                                                </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/road-development.php">
+                                                                        Road Development
+                                                                </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/interior.php">
+                                                                        Interior
+                                                                </a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="../../pages/servicesPages/manpower-supply.php">
+                                                                        Manpower Supply
+                                                                </a></li>
+
                                                         <!-- <li><a class="dropdown-item"
                                                                         href="pages/whatWeOfferPages/technical-services.html">TECHNICAL
                                                                         SERVICES</a></li>
@@ -90,24 +130,19 @@
                                                 </ul>
                                         </li>
 
-                                        <li class="nav-item dropdown">
-                                                <a class=" nav-list-color nav-link" href="pages/navbarPages/aboutUs.html">ABOUT US</a>
-                                        </li>
-
-                                        
-             
-
-                                        <!-- <li class="nav-item">
-                                                <a class="nav-list-color nav-link" href="portfolio.html">NEWSROOM</a>
-                                        </li>
-
                                         <li class="nav-item">
-                                                <a class=" nav-list-color nav-link" href="team-members.html">CAREERS</a>
-                                        </li> -->
+                                                <a class="nav-list-color nav-link"
+                                                        href="../../pages/navbarPages/career-pg.php">CAREER</a>
+                                        </li>
 
                                         <li class="nav-item">
                                                 <a class="nav-list-color nav-link"
-                                                        href="pages/contactUsPages/contactUsForm.php">CONTACT US</a>
+                                                        href="../../pages/navbarPages/enquiry-pg.php">ENQUIRY</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                                <a class="nav-list-color nav-link"
+                                                        href="#">CONTACT US</a>
                                         </li>
 
 
@@ -118,7 +153,7 @@
             </form> -->
                         </div>
                 </div>
-</nav>
+        </nav>
 
 <section id="contact" class="contact">
     <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
@@ -169,7 +204,7 @@
         <!-- -------------------------Contact Us form -->
         <div class="col-lg-8 mt-5 mt-lg-0">
           <div class="info">Contact us now !</div>
-          <form action="sendEmail.php" method="post" name="form" class="form-box php-email-form">
+          <form action="contactUsLogic.php" method="post" name="form" class="form-box php-email-form">
             <div class="row">
               <div class="col-md-6 form-group">
                 <label for="name">Name</label><br>

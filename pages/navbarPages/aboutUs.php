@@ -6,34 +6,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- AOS link -->
-
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
         <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+                crossorigin="anonymous">
 
         <!-- Manual css -->
         <link rel="stylesheet" href="../../assets/css/general/homepage.css">
         <link rel="stylesheet" href="../../assets/css/general/footer.css">
 
-        <!-- Service Section Css -->
-        <link rel="stylesheet" href="../../assets/css/general/servicesSectionCommon.css">
-
         <!-- Font awesome -->
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <!-- owl css -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
         <title>Hello, world!</title>
 </head>
 
 <body>
 
-<nav class="navbar fixed-top navbar-expand-lg">
+        <nav class="navbar fixed-top navbar-expand-lg">
                 <div class="container">
                         <a class="navbar-brand" href="/">
                                 <img src="../../assets/images/logo/logo.png" alt="" width="120" height="50"
@@ -58,7 +50,7 @@
 
                                         <li class="nav-item dropdown">
                                                 <a class=" nav-list-color nav-link"
-                                                        href="../../pages/navbarPages/aboutUs.html">ABOUT US</a>
+                                                        href="#">ABOUT US</a>
                                         </li>
 
                                         <li class="nav-item dropdown">
@@ -79,11 +71,11 @@
                                                                         Solid waste management
                                                                 </a></li>
                                                         <li><a class="dropdown-item"
-                                                                        href="../../pages/servicesPages/landspace-gardening.php">
+                                                                        href="../../pages/servicesPages/plasma-technology.php">
                                                                         Plasma Technology for 100% waste processing
                                                                 </a></li>
                                                         <li><a class="dropdown-item"
-                                                                        href="../../pages/servicesPages/shed-work.php">
+                                                                        href="../../pages/servicesPages/landspace-gardening.php">
                                                                         Landspace Gardening
                                                                 </a></li>
                                                         <li><a class="dropdown-item"
@@ -103,7 +95,7 @@
                                                                         Landfill Development
                                                                 </a></li>
                                                         <li><a class="dropdown-item"
-                                                                        href="#">
+                                                                        href="../../pages/servicesPages/wall-compound.php">
                                                                         Wall Compound
                                                                 </a></li>
                                                         <li><a class="dropdown-item"
@@ -156,184 +148,187 @@
                         </div>
                 </div>
         </nav>
-        <!-- ----------------------------------SECTIONS ------------------------------->
 
-        <!-- SERVICE SECTION 1 -->
-        <section>
+<!-- SERVICE SECTION 1 -->
+ <section>
+         
+          <div class="aboutus-service1-container">
+         
+            <div class="row">
 
-                <div class="row service1-container">
+                <div class="col-lg-6 col-md-12 col-sm-12 ">
+                            
+                                <div class="aboutus-service1-img-con">
+                                        <img src="../../assets/images/logo/vdk_logo.png" alt="">
+                                </div>
+                                
+                </div>
 
                         <div class="col-lg-6 col-md-12 col-sm-12">
-                                <h2 class="heading-service"> Wall Compound </h2>
+                                <h2 class="aboutus-heading"> About US</h2>
 
-                                <div class="span-line"></div>
+                                <div class="aboutus-span-line"></div>
 
-                                <p class="service1-para">
-                                        Facilities management service revolves around the maintenance of workplace that includes
-                                        cleaning, property service and support service. The need for clean and welcoming internal environment that provide a healthy and effective working condition is a key to all organizations.
-                                        Our approach of hiring apt candidates is based on processes and methods that help to identify
-                                        skilled employees who can cater to the needs from day one. <br> <br> We ensure that our customer
-                                        receives a professional and consistent level of quality in the services delivered. As our recruiters
-                                        have been dealing in hiring this level of candidates for over a decade, they have the knack to
-                                        identity and pick the right candidate. VDK is today known as the top company for facilities
-                                        service and HRM in Pune.
+                                <p class="aboutus-para">
+                                        Vdk Group Today Is Amongst The Top Facility Management Companies In Pune And A
+                                        One-stop-shop For All Your Facility Management Requirements Related To Business. Being A
+                                        Prominent Name In The Industry, Providing Facility Management Related To Facility Management
+                                        Services | Mechanized Housekeeping| Solid Waste Management | Landscaping Gardening Trading, Logistics & Transportation | Outdoor & Indoor Painting
+                                        Material Supply | Building Maintenance | Manpower Supply, Recruitment Services And Gardening To Local Companies, Mnc’s,
+                                        Corporate, Financial Institutions And Large Industries.                                             
                                 </p>
 
                         </div>
 
-
-
-                        <div class="col-lg-6 col-md-12 col-sm-12 ">
-                                <div class="service1-img-con">
-                                        <img src="../../assets/images/Service-section-imgs/Compound-wall.jpeg" alt="">
-                                </div>
-                        </div>
-
                 </div>
 
-        </section>
+        </div>
 
-        <!-- SERVICE SECION 2 -->
+</section> 
+        
+<!-- Section half abtU pg -->
 
-        <!-- Back to top button
+<section>
+        <div class="container-fluid sec-half-abt">
+                
+
+                <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="half-img-con-1">
+                                        <img src="../../assets/images/aboutU-imgs/visionf.png" alt="">
+                                </div>
+
+                                <h2 class="half-abt-heading-1">Vision</h2>
+
+                                <p class="half-abt-para-1">
+                                    To Provide Complete Facility Management Solution That Helps Our Clients To Attain A Competitive
+                                    Edge. No Matter What We Are Working On, We Are Motivated To Make The Most Of Staff's Talent
+                                    And Potential To Inform, Train, And Encourage Our Clients To Reach Their Professional Objectives.
+                                </p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="half-img-con-2">
+                                        <img src="../../assets/images/aboutU-imgs/missionf.png" alt="">
+                                </div>
+                                <h2 class="half-abt-heading-2">Mission</h2>
+
+                                <p class="half-abt-para-2">
+                                   To ensure quality, honesty at work of people.
+                                   <br>
+                                   We Believe In Creating A Learning Environment That Will Challenge And Support Our Employees In
+                                   Most Innovative Ways And Help Them To Achieve Our Goals Quicker And Easier, With Less Strain
+                                   And More Satisfaction.
+                                </p>
+                        </div>
+                </div>
+
+        </div>
+</section>
+
+<!-- Top management  -->
+
+<section>
+
+        <div class="section2-aboutus-container">
+                <div class="aboutUS-section2-part1">
+                        <h2 class="aboutUS-part1-h2">Top Management</h2>
+                        <div class="aboutUs-section2-img-con">
+                                <img src="../../assets/images/management.jpeg" alt="">
+                        </div>
+                </div>
+
+                <!-- <div class="aboutUS-section2-part2">
+
+                        <p class="aboutUS-part2-para">
+                               
+                        </p>
+                </div> -->
+        </div>
+
+</section>
+
+
+<!-- Back to top button
 <button type="button" class="btn btn-outline-dark btn-floating btn-lg" id="btn-back-to-top">
     <i class="fa fa-arrow-up"></i>
 </button> -->
 
-        <!-- ------------------------------FOOTER---------------------------- -->
+<footer class="footer-container">
+        <div class="footer-top footer">
+            <div class="container ft-container-main">
+                
+                <div class="row">
 
-        <footer class="footer-container">
-                <div class="footer-top footer">
-                        <div class="container ft-container-main">
+                    <div class="col-md-4 col-lg-4 footer-about wow fadeInUp">
 
-                                <div class="row">
+                        <img src="../../assets/images/logo/logo.png" alt="" width="120" height="50" style="margin-bottom: 20px;">
 
-                                        <div class="col-md-4 col-lg-4 footer-about wow fadeInUp">
+                        <p class="ft-row-1-p">
+                                Vdk Group Today Is Amongst The Top Facility Management Companies In Pune And A
+                                One-stop-shop For All Your Facility Management Requirements Related To Business.
+                        </p>
+                        
+                        <p><a href="#">Services</a></p>
+                        <p><a href="#">Our Team</a></p>
+                        <p><a href="#">About us</a></p>
+                        <p><a href="#">Contact us</a></p>
 
-                                                <img src="../../assets/images/logo/logo.png" alt="" width="120" height="50" style="margin-bottom: 20px;">
+                    </div>
 
-                                                <p class="ft-row-1-p">
-                                                        Vdk Group Today Is Amongst The Top Facility Management Companies In Pune And A
-                                                        One-stop-shop For All Your Facility Management Requirements Related To Business.
-                                                </p>
+                    <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown" style="color: white;">
+                        
+                        <h3 style="color: white; margin-bottom: 20px;">Contact</h3>
 
-                                                <p><a href="#">Services</a></p>
-                                                <p><a href="#">Our Team</a></p>
-                                                <p><a href="#">About us</a></p>
-                                                <p><a href="#">Contact us</a></p>
+                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Corporate Office :
+                             <!-- <br> -->
+                             Office No 408 
+                            <br> 
+                            The Address Commercia Mall
+                            <br>
+                            Shanker Kalate Nagar 
+                            <br>
+                            Wakad - 411057
+                            </p>
+                        
+                        <p><i class="fa fa-whatsapp"></i> Whatsapp: +91-9657550522</p>
+                        <p><i class="fa fa-phone"></i> Phone: +91-9922733222</p>
+                        <p><i class="fa fa-envelope"></i> Email: <a href="mailto:hello@domain.com">info@nexottel.com</a>
+                        </p>
 
-                                        </div>
+                    </div>
 
-                                        <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown" style="color: white;">
+                    <div class="col-md-4 col-lg-3 footer-social wow fadeInUp " style="color: white;" >
+                        <h3 style="margin-bottom: 20px;">Follow us</h3>
+                        <p style="margin-bottom: 40px;">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </p>
 
-                                                <h3 style="color: white; margin-bottom: 20px;">Contact</h3>
+                        <button id="btn-enquiry"> ENQUIRY </button>
 
-                                                <p><i class="fa fa-map-marker" aria-hidden="true"></i> Corporate Office :
-                                                        <!-- <br> -->
-                                                        Office No 408
-                                                        <br>
-                                                        The Address Commercia Mall
-                                                        <br>
-                                                        Shanker Kalate Nagar
-                                                        <br>
-                                                        Wakad - 411057
-                                                </p>
+                    </div>
 
-                                                <p><i class="fa fa-whatsapp"></i> Whatsapp: +91-9657550522</p>
-                                                <p><i class="fa fa-phone"></i> Phone: +91-9922733222</p>
-                                                <p><i class="fa fa-envelope"></i> Email: <a href="mailto:hello@domain.com">info@nexottel.com</a>
-                                                </p>
-
-                                        </div>
-
-                                        <div class="col-md-4 col-lg-3 footer-social wow fadeInUp " style="color: white;">
-                                                <h3 style="margin-bottom: 20px;">Follow us</h3>
-                                                <p style="margin-bottom: 40px;">
-                                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                                </p>
-
-                                                <button id="btn-enquiry"> ENQUIRY </button>
-
-                                        </div>
-
-                                </div>
-
-                        </div>
                 </div>
 
-        </footer>
+            </div>
+        </div>
 
-
+    </footer>
 
         <!-- Optional JavaScript; choose one of the two! -->
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
 
         <!-- Option 2: Separate Popper and Bootstrap JS -->
         <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
-
-        <!-- AOS LIBRARY SCRIPT -->
-
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-                AOS.init();
-        </script>
-
-        <!-- owl -->
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-
-        <!-- <script>
-                
-$(document).ready(function(){
-  
-        $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:3,
-            nav:false
-        },
-        1000:{
-            items:5,
-            nav:true,
-            loop:false
-        }
-    }
-})
-
-});
-        
-        </script> -->
-
-        <script>
-                
-                $('.owl-carousel').owlCarousel({
-    margin:10,
-    loop:true,
-    autoWidth:true,
-    items:3
-})
-
-
-    </script>
-
-
 </body>
 
 </html>

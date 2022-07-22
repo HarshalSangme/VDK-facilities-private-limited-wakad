@@ -24,6 +24,7 @@
 
         <link rel="stylesheet"
                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Owl Slider ON CSS -->
 
@@ -49,10 +50,11 @@
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                                <!-- <span class="navbar-toggler-icon"></span> -->
+                                <i class="fa fa-bars hams-color"></i>
                         </button>
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse navbar-list-hover id="navbarSupportedContent">
 
                                 <ul class="navbar-nav ms-auto ml-auto ">
 
@@ -152,6 +154,7 @@
                                                         href="pages/contactUsPages/contactUsForm.php">CONTACT US</a>
                                         </li>
 
+                                        <div class="line"></div>
 
                                 </ul>
                                 <!-- <form class="d-flex">
@@ -168,7 +171,7 @@
 
                 <div class="section1-img-slider-con">
 
-                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="true">
                                 <div class="carousel-indicators">
                                         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
                                                 class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -181,7 +184,7 @@
                                 <div class="carousel-inner">
 
                                         <div class="carousel-item active" data-bs-interval="2000">
-                                                <img src="assets/images/management.jpeg" class="d-block w-100"
+                                                <img src="assets/images/homePageSlider-img/slider img 1.jpg" class="d-block w-100"
                                                         alt="...">
                                                 <div class="carousel-caption d-none d-md-block">
                                                         <h5>First slide label</h5>
@@ -191,7 +194,7 @@
                                         </div>
 
                                         <div class="carousel-item" data-bs-interval="2000">
-                                                <img src="assets/images/plant.jpg" class="d-block w-100" alt="...">
+                                                <img src="assets/images/homePageSlider-img/slider img 2.jpg" class="d-block w-100" alt="...">
                                                 <div class="carousel-caption d-none d-md-block">
                                                         <h5>Second slide label</h5>
                                                         <p>Some representative placeholder content for the second slide.
@@ -200,7 +203,7 @@
                                         </div>
 
                                         <div class="carousel-item" data-bs-interval="2000">
-                                                <img src="assets/images/management.jpeg" class="d-block w-100"
+                                                <img src="assets/images/homePageSlider-img/slider img 3.jpg" class="d-block w-100"
                                                         alt="...">
                                                 <div class="carousel-caption d-none d-md-block">
                                                         <h5>Third slide label</h5>
@@ -209,7 +212,19 @@
                                                 </div>
                                         </div>
 
-                                </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="assets/images/homePageSlider-img/slider img 4.jpg" class="d-block w-100"
+                                                        alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Third slide label</h5>
+                                                        <p>Some representative placeholder content for the third slide.
+                                                        </p>
+                                                </div>
+                                        </div>
+
+
+                                </di
+                                v>
 
                                 <button class="carousel-control-prev" type="button"
                                         data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -239,21 +254,21 @@
 
                         <div class="col-lg-6 col-12">
 
-                                <h1 class="heading-service2"> About <span class="span-service2">Vdk</span> </h1>
+                                <h1 class="heading-service2"  data-aos="fade-up" data-aos-duration="2000"> About <span class="span-service2">Vdk</span> </h1>
 
-                                <p class="para-service2">
+                                <p class="para-service2" data-aos="slide-right" data-aos-duration="2000">
                                         Vdk Group Today Is Amongst The Top Facility Management Companies In Pune And A
                                         One-stop-shop For All Your Facility Management Requirements Related To Business.
                                 </p>
 
-                                <a href="pages/navbarPages/aboutUs.html" class="linktg-service-2">
+                                <a href="pages/navbarPages/aboutUs.html" class="linktg-service-2" data-aos="fade-down" data-aos-duration="1800">
                                         Learn more
                                 </a>
 
                         </div>
 
                         <div class="col-lg-6 col-12 ">
-                                <div class="img-service2-con img-service2-icon-res">
+                                <div class="img-service2-con img-service2-icon-res" data-aos="slide-left" data-aos-duration="2000">
                                         <img src="https://www.tajhotels.com/content/dam/luxury/tle/TLE_Images_Folderised/2_Rooms_Suites/Luxury_Room/3X2/WOGLI/Luxury%20Room%20Sea%20View.jpg/jcr:content/renditions/cq5dam.web.756.756.jpeg"
                                                 alt="">
                                 </div>
@@ -334,7 +349,7 @@
 
                         <div class="owl-carousel owl-theme">
                            
-                             <div class="item">
+                             <div class="item" data-aos="fade-up" data-aos-duration="1000" >
                                 <a href="#">
                                      <div class="owl-item-img-con">
                                              <img src="data:image/jpeg;base64,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" alt="">
@@ -352,7 +367,7 @@
                                 </a>               
                               </div>
 
-                              <div class="item">
+                              <div class="item" data-aos="fade-up" data-aos-duration="1400">
                                 <a href="#">
                                      <div class="owl-item-img-con">
                                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ53kdcYLw27QIdhFyB1CIDxcAoPJOwnlL8g&usqp=CAU" alt="">
@@ -370,7 +385,7 @@
                                 </a>               
                               </div>
 
-                              <div class="item">
+                              <div class="item" data-aos="fade-up" data-aos-duration="1800">
                                 <a href="#">
                                      <div class="owl-item-img-con">
                                              <img src="assets/images/Service-section-imgs/civil-work.jpeg" alt="">
@@ -386,7 +401,7 @@
                                 </a>               
                               </div>
 
-                              <div class="item">
+                              <div class="item" data-aos="fade-up" data-aos-duration="2200">
                                 <a href="#">
                                      <div class="owl-item-img-con">
                                              <img src="assets/images/Service-section-imgs//landfill-dev.jpeg" alt="">
@@ -404,7 +419,7 @@
                                 </a>               
                               </div>
 
-                              <div class="item">
+                              <div class="item" data-aos="fade-up" data-aos-duration="2600">
                                 <a href="#">
                                      <div class="owl-item-img-con">
                                              <img src="assets/images/Service-section-imgs/road-development.jpeg" alt="">
@@ -578,46 +593,46 @@
                 <div class="container-fluid clients-served">
                         <div class="row">
                                 <div class="col-12 text-center">
-                                        <h3 class="sec-title">Clients Served</h3>
+                                        <h3 class="sec-title" data-aos="slide-up" data-aos-duration="1200">Clients Served</h3>
                                 </div>
                         </div>
                         <div class="row">
-                                <div class="col-md-2 col-sm-3 col-6 text-center">
+                                <div class="col-md-2 col-sm-3 col-6 text-center" data-aos="slide-right" data-aos-duration="1800">
                                         <img src="assets/images/clientsImages/011.jpg" alt="" title=""
                                                 class="img-fluid">
                                 </div>
-                                <div class="col-md-2 col-sm-3 col-6 text-center">
+                                <div class="col-md-2 col-sm-3 col-6 text-center" data-aos="slide-right" data-aos-duration="1800">
                                         <img src="assets/images/clientsImages/02.jpg" alt="" title="" class="img-fluid">
                                 </div>
-                                <div class="col-md-2 col-sm-3 col-6 text-center">
+                                <div class="col-md-2 col-sm-3 col-6 text-center" data-aos="slide-right" data-aos-duration="1800">
                                         <img src="assets/images/clientsImages/03.jpg" alt="" title="" class="img-fluid">
                                 </div>
-                                <div class="col-md-2 col-sm-3 col-6 text-center">
+                                <div class="col-md-2 col-sm-3 col-6 text-center" data-aos="slide-left" data-aos-duration="1800">
                                         <img src="assets/images/clientsImages/04.jpg" alt="" title="" class="img-fluid">
                                 </div>
-                                <div class="col-md-2 col-sm-3 col-6 text-center">
+                                <div class="col-md-2 col-sm-3 col-6 text-center" data-aos="slide-left" data-aos-duration="1800">
                                         <img src="assets/images/clientsImages/05.jpg" alt="" title="" class="img-fluid">
                                 </div>
-                                <div class="col-md-2 col-sm-3 col-6 text-center">
+                                <div class="col-md-2 col-sm-3 col-6 text-center" data-aos="slide-left" data-aos-duration="1800">
                                         <img src="assets/images/clientsImages/06.jpg" alt="" title="" class="img-fluid">
                                 </div>
-                                <div class="col-md-2 col-sm-3 col-6 text-center">
+                                <div class="col-md-2 col-sm-3 col-6 text-center" data-aos="fade-down-right" data-aos-duration="1800">
                                         <img src="assets/images/clientsImages/07.jpg" alt="" title="" class="img-fluid">
                                 </div>
-                                <div class="col-md-2 col-sm-3 col-6 text-center">
+                                <div class="col-md-2 col-sm-3 col-6 text-center" data-aos="fade-down-right" data-aos-duration="1800">
                                         <img src="assets/images/clientsImages/08.jpg" alt="" title="" class="img-fluid">
                                 </div>
-                                <div class="col-md-2 col-sm-3 col-6 text-center">
+                                <div class="col-md-2 col-sm-3 col-6 text-center" data-aos="fade-down-right" data-aos-duration="1800">
                                         <img src="assets/images/clientsImages/09.jpg" alt="" title="" class="img-fluid">
                                 </div>
-                                <div class="col-md-2 col-sm-3 col-6 text-center">
+                                <div class="col-md-2 col-sm-3 col-6 text-center" data-aos="fade-down-left" data-aos-duration="1800">
                                         <img src="assets/images/clientsImages/010.jpg" alt="" title=""
                                                 class="img-fluid">
                                 </div>
-                                <div class="col-md-2 col-sm-3 col-6 text-center">
+                                <div class="col-md-2 col-sm-3 col-6 text-center" data-aos="fade-down-left" data-aos-duration="1800">
                                         <img src="assets/images/clientsImages/01.jpg" alt="" title="" class="img-fluid">
                                 </div>
-                                <div class="col-md-2 col-sm-3 col-6 text-center">
+                                <div class="col-md-2 col-sm-3 col-6 text-center" data-aos="fade-down-left" data-aos-duration="1800">
                                         <img src="assets/images/clientsImages/012.jpg" alt="" title=""
                                                 class="img-fluid">
                                 </div>
