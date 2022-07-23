@@ -1427,7 +1427,7 @@
        /* background-color: rgb(243, 243, 235); */
        background-color: #fef4dc;
        width: 100%;
-       height: 190vh;
+       height: 205vh;
        margin: 150px 0 0 0;
    }
    
@@ -1907,7 +1907,6 @@
 }
  
 }
-
 
 @media screen and (max-width: 277px) {
     
