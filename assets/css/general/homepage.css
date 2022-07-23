@@ -23,51 +23,13 @@
 
 .nav-list-color {
     color: #7F171F;
-} 
-
-/* LIST STYLING FINISHING TOUCH */
-.navbar-nav li a{
-    color: #7F171F;
-    transition: color 0.3s ease;
 }
 
-.navbar-list-hover li:hover a{
-    color: #f23b26;
+/* hams */
+.navbar-toggler {
+    color: #fff;
+    /* background-color: #7F171F; */
 }
-
-/* .navbar-list-hover li:first-child a{
-    color: #f23b26;
-} */
-
-.navbar-list-hover .line{
-    position: absolute;
-    height: 3px;
-    width: 7%;
-    background: #f23b26;
-    left: -100%;
-    bottom: 0;
-    transition: all 0.3s ease;
-  }
-
-  .navbar-list-hover li:nth-child(1):hover ~ .line{
-    left: 35%;
-  }
-
-  .navbar-list-hover li:nth-child(2):hover ~ .line{
-    left: 43%;
-  }
-  .navbar-list-hover li:nth-child(3):hover ~ .line{
-    left: 53%;
-  }
-  .navbar-list-hover li:nth-child(4):hover ~ .line{
-    left: 63%;
-  }
-  .navbar-list-hover li:nth-child(5):hover ~ .line{
-    left: 72%;
-  }
-  .navbar-list-hover li:nth-child(6):hover ~ .line{
-    left: 82%;
-  }
 
 /* ************************************ Section1 Image slider ***************************** */
 

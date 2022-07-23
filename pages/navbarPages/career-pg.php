@@ -173,7 +173,7 @@
 
         <h1 class="career-heading">Career Form</h1>
 
-        <form class="php-email-form" action="sendResumeViaEmail.php" method="post" enctype="multipart/form-data">
+        <form class="php-email-form" action="../../forms/careerFormLogic.php" method="post" enctype="multipart/form-data">
         <div class="row">
             <div class="col-md-6 form-group">
             <input class="form-control" type="text" name="firstname" placeholder="Enter your first name">

@@ -162,7 +162,7 @@
 
         <!-- <div class="col-lg-8 mt-5 mt-lg-0"> -->
           <!-- <div class="info">Contact us now !</div> -->
-          <form action="sendEmail.php" method="post" name="form" class="form-box php-email-form">
+          <form action="../../forms/enquiryFormLogic.php" method="post" name="form" class="form-box php-email-form">
             <div class="row">
               <div class="col-md-6 form-group">
                 <label for="name">Name</label><br>
