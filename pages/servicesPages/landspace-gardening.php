@@ -188,7 +188,7 @@
 
                         <div class="col-lg-6 col-md-12 col-sm-12 ">
                                 <div class="service1-img-con">
-                                        <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
+                                        <img src="../../assets/images/Service-section-imgs/garding-imgF.jpeg" alt="">
                                 </div>
                         </div>
 

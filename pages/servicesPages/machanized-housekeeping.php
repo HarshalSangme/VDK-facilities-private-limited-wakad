@@ -157,11 +157,11 @@
             </form> -->
                         </div>
                 </div>
-        </nav>
+</nav>
         <!-- ----------------------------------SECTIONS ------------------------------->
 
         <!-- SERVICE SECTION 1 -->
-        <section>
+<section>
 
                 <div class="row service1-container">
 
@@ -189,7 +189,7 @@
 
                         <div class="col-lg-6 col-md-12 col-sm-12 ">
                                 <div class="service1-img-con">
-                                        <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
+                                        <img src="../../assets/images/Service-section-imgs/machinized-house-imgF.jpg" alt="">
                                 </div>
                         </div>
 

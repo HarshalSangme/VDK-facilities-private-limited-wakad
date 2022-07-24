@@ -168,7 +168,7 @@
 
                         <div class="col-lg-6 col-md-12 col-sm-12 ">
                                 <div class="earth-service1-img-con">
-                                        <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
+                                        <img src="../../assets/images/Service-section-imgs/crane-earth-imgF.jpeg" alt="">
                                 </div>
                         </div>        
                 
@@ -214,7 +214,7 @@
 
                         <div class="col-lg-6 col-md-12 col-sm-12 ">
                                 <div class="earth-service1-img-con">
-                                        <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
+                                        <img src="../../assets/images/Service-section-imgs/civil-work.jpeg" alt="">
                                 </div>
                         </div>
 

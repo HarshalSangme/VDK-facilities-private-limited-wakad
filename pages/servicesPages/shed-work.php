@@ -170,14 +170,9 @@
                                 <div class="span-line"></div>
 
                                 <p class="service1-para">
-                                        Facilities management service revolves around the maintenance of workplace that includes
-                                        cleaning, property service and support service. The need for clean and welcoming internal environment that provide a healthy and effective working condition is a key to all organizations.
-                                        Our approach of hiring apt candidates is based on processes and methods that help to identify
-                                        skilled employees who can cater to the needs from day one. <br> <br> We ensure that our customer
-                                        receives a professional and consistent level of quality in the services delivered. As our recruiters
-                                        have been dealing in hiring this level of candidates for over a decade, they have the knack to
-                                        identity and pick the right candidate. VDK is today known as the top company for facilities
-                                        service and HRM in Pune.
+                                        <br><br>
+                                We are one of the major company engaged in manufacturing of PEB Structural Shed. 
+                                <br><br> Our offered sheds are known for high strength, sturdy construction and easy setup aspects as these are designed, and erected by skilled professionals.
                                 </p>
 
                         </div>

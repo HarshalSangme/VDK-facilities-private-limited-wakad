@@ -156,11 +156,11 @@
             </form> -->
                         </div>
                 </div>
-        </nav>
+</nav>
         <!-- ----------------------------------SECTIONS ------------------------------->
 
         <!-- SERVICE SECTION 1 -->
-        <section>
+<section>
 
                 <div class="row service1-container">
 
@@ -170,14 +170,21 @@
                                 <div class="span-line"></div>
 
                                 <p class="service1-para">
-                                        Facilities management service revolves around the maintenance of workplace that includes
-                                        cleaning, property service and support service. The need for clean and welcoming internal environment that provide a healthy and effective working condition is a key to all organizations.
-                                        Our approach of hiring apt candidates is based on processes and methods that help to identify
-                                        skilled employees who can cater to the needs from day one. <br> <br> We ensure that our customer
-                                        receives a professional and consistent level of quality in the services delivered. As our recruiters
-                                        have been dealing in hiring this level of candidates for over a decade, they have the knack to
-                                        identity and pick the right candidate. VDK is today known as the top company for facilities
-                                        service and HRM in Pune.
+                                VDK uses Plasma-based Technology converts matter into energy 
+                                perfectly as nature does for waste management. It will read 
+                                not only reduce the waste volume but also require very less 
+                                time for the waste treatment. 
+                                <br><br> It is also associated with the 
+                                very high-value output product in the form of synthetic gas 
+                                and slag. The comparison of plasma with other popular
+                                technology such as incineration, glassification, and paralysis
+                                with the same operating parameter. 
+                                <br><br>
+                                There are a few reasons for not 
+                                having the popularity of Plasma base which technology one 
+                                of the reason for it that this technology is relatively new and 
+                                have limited process understanding for awareness.
+
                                 </p>
 
                         </div>
@@ -186,7 +193,7 @@
 
                         <div class="col-lg-6 col-md-12 col-sm-12 ">
                                 <div class="service1-img-con">
-                                        <img src="../../assets/images/Service-section-imgs/facli.jpg" alt="">
+                                        <img src="../../assets/images/Service-section-imgs/plasma-F.jpeg" alt="">
                                 </div>
                         </div>
 
