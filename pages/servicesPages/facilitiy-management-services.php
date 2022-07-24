@@ -29,7 +29,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
-        <title>Hello, world!</title>
+        <title>Facility Management Services</title>
 </head>
 
 <body>
@@ -260,69 +260,123 @@
 
         <!-- ------------------------------FOOTER---------------------------- -->
 
-        <footer class="footer-container">
-                <div class="footer-top footer">
-                        <div class="container ft-container-main">
+        <footer class="footer-section">
+                <div class="container">
+                    <div class="footer-cta pt-5 pb-5">
+                        <div class="row">
+                            <div class="col-xl-4 col-md-4 mb-30">
+                                <div class="single-cta">
+                                        <a href="https://goo.gl/maps/GvWgLQDx5jHJ3xaD8" style="text-decoration: none;">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div class="cta-text">
+                                        <h4>Find us</h4>
+                                        <span   style="text-transform: capitalize;">Office No 408 The Address Commercia Mall
 
-                                <div class="row">
-
-                                        <div class="col-md-4 col-lg-4 footer-about wow fadeInUp">
-
-                                                <img src="../../assets/images/logo/logo.png" alt="" width="120" height="50" style="margin-bottom: 20px;">
-
-                                                <p class="ft-row-1-p">
-                                                        Vdk Group Today Is Amongst The Top Facility Management Companies In Pune And A
-                                                        One-stop-shop For All Your Facility Management Requirements Related To Business.
-                                                </p>
-
-                                                <p><a href="#">Services</a></p>
-                                                <p><a href="#">Our Team</a></p>
-                                                <p><a href="#">About us</a></p>
-                                                <p><a href="#">Contact us</a></p>
-
-                                        </div>
-
-                                        <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown" style="color: white;">
-
-                                                <h3 style="color: white; margin-bottom: 20px;">Contact</h3>
-
-                                                <p><i class="fa fa-map-marker" aria-hidden="true"></i> Corporate Office :
-                                                        <!-- <br> -->
-                                                        Office No 408
-                                                        <br>
-                                                        The Address Commercia Mall
-                                                        <br>
-                                                        Shanker Kalate Nagar
-                                                        <br>
-                                                        Wakad - 411057
-                                                </p>
-
-                                                <p><i class="fa fa-whatsapp"></i> Whatsapp: +91-9657550522</p>
-                                                <p><i class="fa fa-phone"></i> Phone: +91-9922733222</p>
-                                                <p><i class="fa fa-envelope"></i> Email: <a href="mailto:hello@domain.com">info@nexottel.com</a>
-                                                </p>
-
-                                        </div>
-
-                                        <div class="col-md-4 col-lg-3 footer-social wow fadeInUp " style="color: white;">
-                                                <h3 style="margin-bottom: 20px;">Follow us</h3>
-                                                <p style="margin-bottom: 40px;">
-                                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                                </p>
-
-                                                <button id="btn-enquiry"> ENQUIRY </button>
-
-                                        </div>
-
+                                                Shankar Kalate Nagar, Wakad - 411057</span>
+                                    </div>
+                                    </a>
                                 </div>
-
+                            </div>
+                            <div class="col-xl-4 col-md-4 mb-30">
+                                <div class="single-cta">
+                                    <i class="fas fa-phone"></i>
+                                    <div class="cta-text">
+                                        <h4>Call us</h4>
+                                        <span>+91-9657550522 | +91-9922733222</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 mb-30">
+                                <div class="single-cta">
+                                    <i class="far fa-envelope-open"></i>
+                                    <div class="cta-text">
+                                        <h4>Mail us</h4>
+                                        <span>vdkfspl@gmail.com</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="footer-content pt-5 pb-5">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 mb-50">
+                                <div class="footer-widget">
+                                    <div class="footer-logo">
+                                        <a href="index.html"><img src="../../assets/images/logo/logo.png"img-fluid" alt="logo"></a>
+                                    </div>
+                                    <div class="footer-text">
+                                        <p>Vdk Group Today Is Amongst The Top Facility Management Companies In Pune And A
+                                                One-stop-shop For All Your Facility Management Requirements Related To Business.</p>
+                                    </div>
+                                    <div class="footer-social-icon">
+                                        <span>Follow us</span>
+                                        <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                        <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                        <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                                <div class="footer-widget">
+                                    <div class="footer-widget-heading">
+                                        <h3>Useful Links</h3>
+                                    </div>
+                                    <ul>
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="pages/navbarPages/aboutUs.html">about</a></li>
+                                        <li><a href="pages/servicesPages/facilitiy-management-services.php">services</a></li>
+                                        <li><a href="pages/contactUsPages/contactUsForm.php">Contact</a></li>
+                                        <li><a href="pages/navbarPages/aboutUs.html">About us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                                <div class="footer-widget">
+                                    <div class="footer-widget-heading">
+                                        <h3>Enquiry</h3>
+                                    </div>
+                                    <div class="footer-text mb-25">
+                                        <p>Just message your email we will contact you shortly</p>
+                                    </div>
+                                    <div class="subscribe-form">
+                                        <form action="forms/onlyEmailFormLogic.php" method="post">
+                                            <input type="text" name = "email" placeholder="Email Address">
+                                            <input type="hidden" name="message" value="Asking about service">
+                                            <button><i class="fab fa-telegram-plane"><input type="hidden" name="submit"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="copyright-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                                <div class="copyright-text">
+                                    <p>Designed & Developed by <a href="https://yuvadigitalmedia.com/">Yuva Digital Media</a></p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                                <div class="footer-menu">
+                                    <ul>
+                                        <!-- <li><a href="#">Home</a></li>
+                                        <li><a href="#">Terms</a></li>
+                                        <li><a href="#">Privacy</a></li>
+                                        <li><a href="#">Policy</a></li>
+                                        <li><a href="#">Contact</a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        <!-- footer cdn links -->
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
-        </footer>
+
 
 
 
