@@ -16,9 +16,11 @@
                 crossorigin="anonymous">
 
         <!-- Manual css -->
-        <link rel="stylesheet" href="../../assets/css/general/homepage.css">
-        <link rel="stylesheet" href="../../assets/css/general/footer.css">
+        <!-- <link rel="stylesheet" href="../../assets/css/general/homepage.css"> -->
+
         <link rel="stylesheet" href="../../assets/css/general/careerForm.css">
+        <link rel="stylesheet" href="../../assets/css/general/navigationbarRed.css">
+        <link rel="stylesheet" href="../../assets/css/general/footer.css">
 
         <!-- Font awesome -->
 
@@ -159,7 +161,7 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner" style="max-height:350px !important;">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="https://img.freepik.com/free-vector/career-development-infographics-banner-ladder-success_107791-3509.jpg?size=626&ext=jpg&ga=GA1.2.1886928284.1658402505" alt="First slide">
+                <img class="d-block w-100" src="../../assets/images/contact-and-enqiry-bg/enquiry-bg.jpg" alt="First slide">
               </div>
             </div>
           </div>

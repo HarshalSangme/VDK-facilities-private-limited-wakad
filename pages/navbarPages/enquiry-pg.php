@@ -16,9 +16,12 @@
                 crossorigin="anonymous">
 
         <!-- Manual css -->
-        <link rel="stylesheet" href="../../assets/css/general/homepage.css">
-        <link rel="stylesheet" href="../../assets/css/general/footer.css">
+        <!-- <link rel="stylesheet" href="../../assets/css/general/homepage.css"> -->
+        <!-- <link rel="stylesheet" href="../../assets/css/general/footer.css"> -->
         <link rel="stylesheet" href="../../assets/css/general/enquiryForm.css">
+            
+        <link rel="stylesheet" href="../../assets/css/general/navigationbarRed.css">
+        <link rel="stylesheet" href="../../assets/css/general/footer.css">
 
         <!-- Font awesome -->
 
@@ -151,7 +154,7 @@
             </form> -->
                         </div>
                 </div>
-        </nav>
+</nav>
 
                     <!-- ************************ Career Form *************************** -->
 
@@ -191,6 +194,13 @@
 
     </section>
 
+    <!-- GOOGLE MAPS -->
+<div class="container pt-4 pb-4">
+      <div style="background-color:#bad9c9; padding:10px;">
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15124.519161992988!2d73.7445091!3d18.6132311!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc50fd2e3f9d07f46!2sVDK%20Facility%20services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1658580434746!5m2!1sen!2sin" width="100%" height="350" style="border:0;" loading="lazy" allowfullscreen></iframe>
+      </div>
+</div>
 
 
 

@@ -19,13 +19,15 @@
         <link rel="stylesheet" href="../../assets/css/general/homepage.css">
         <link rel="stylesheet" href="../../assets/css/general/footer.css">
         <link rel="stylesheet" href="../../assets/css/general/contactUs.css">
+        <link rel="stylesheet" href="../../assets/css/general/navigationbarRed.css">
+         
  
         <!-- Font awesome -->
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-        <title>Hello, world!</title>
+        <title>Contact us page</title>
 </head>
 
 <body>
@@ -42,7 +44,7 @@
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
                                 <!-- <span class="navbar-toggler-icon"></span> -->
-                                <i class="fa fa-bars hams-color"></i>
+                                <i class="fa fa-bars hams-color" style="font-size:30px"></i>
                         </button>
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -159,7 +161,7 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner" style="max-height:400px !important;">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="https://www.tajhotels.com/content/dam/luxury/tle/TLE_Images_Folderised/2_Rooms_Suites/Luxury_Room/3X2/WOGLI/Luxury%20Room%20Sea%20View.jpg/jcr:content/renditions/cq5dam.web.756.756.jpeg" alt="First slide">
+          <img class="d-block w-100" src="../../assets/images/contact-and-enqiry-bg/contact-us-bg.jpg" alt="First slide">
         </div>
       </div>
     </div>

@@ -52,578 +52,312 @@
  }
 
  /* ********************************** SERVICE SECTION 2 ********************************* */
- /* .section2-container {
-   overflow: hidden;
-   background-color: rgb(243, 243, 235);
-   width: 100%;
-   height: 500px;
-   margin: 100px 0 15vh 0;
- }
- 
- .section2-h1-heading {
-   margin: 45px 0 40px 0;
-   font-weight: 600; 
-   text-align: center;
-   font-family: Arial, Helvetica, sans-serif;
- }
- .section2-h1-heading span {
-  color: #7F171F;
- }
-
-
-.item {
-  width: 100%;
-  height: 60vh;
-  margin: 0 28px 0 0;
-}
-
-
-.item img {
-  width: 100%;
-  height: 100%;
-}  */
 
 
 /* **************************************** Media queries for Service section *********************************/
 
-@media screen and (max-width: 1258px) {
 
-.service1-container {
-    background-color: rgb(243, 243, 235);
-    width: 100%;
-    height: 600px;
-    margin: 200px 0 50px 0;
-}
-
-
-.heading-service {
-    margin: 70px  0 30px 90px;
-    color: #333300;
-    font-size: xx-large;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-.span-line {
-    background-color: green; 
-    width: 60px; 
-    height: 5px;
-    margin: 15px 0 15px 90px;
- }
-
- .service1-para {
-    margin: 30px 0 15px 90px;
-    color: #7F171F;
-    font-weight: 500;
- }
-
-/* SERVICE SECTION IMG */
-
- .service1-img-con {
-    margin: 20px 25px 20px 0;
-    width: 100%;
-    height: 450px;
-    object-fit: cover;
-    /* background-color: rgb(252, 192, 64); */
-    padding: 20px;
- }
-
- .service1-img-con img {
-    width: 100%;
-    height: 100%;
- }
-}
-
-@media screen and (max-width: 1080px) {
-
-  .service1-container {
-      background-color: rgb(243, 243, 235);
-      width: 100%;
-      height: 700px;
-      margin: 150px 0 50px 0;
-  }
-  
-  
-  .heading-service {
-      margin: 70px  0 30px 45px;
-      color: #333300;
-      font-size: xx-large;
-      font-weight: 500;
-      text-transform: uppercase;
-  }
-  
-  .span-line {
-      background-color: green; 
-      width: 60px; 
-      height: 5px;
-      margin: 15px 0 15px 45px;
-   }
-  
-   .service1-para {
-      margin: 30px 0 15px 45px;
-      color: #7F171F;
-      font-weight: 500;
-   }
-  
-  /* SERVICE SECTION IMG */
-  
-   .service1-img-con {
-      margin: 20px 25px 20px 0;
-      width: 100%;
-      height: 450px;
-      object-fit: cover;
-      /* background-color: rgb(252, 192, 64); */
-      padding: 20px;
-   }
-  
-   .service1-img-con img {
-      width: 100%;
-      height: 100%;
-   }
-  }
-
-
-@media screen and (max-width: 991px) {
-
-    .service1-container {
-      background-color: rgb(243, 243, 235);
-        width: 100%;
-        height: 910px;
-        margin: 150px 0 50px 0;
-    }
-    
-    
-    .heading-service {
-        margin: 70px 20p 30px 45px;
-        color: #333300;
-        font-size: xx-large;
-        font-weight: 500;
-        text-transform: uppercase;
-    }
-    
-    .span-line {
-        background-color: green; 
-        width: 60px; 
-        height: 5px;
-        margin: 15px 20px 15px 45px;
-     }
-    
-     .service1-para {
-        margin: 30px 20px 15px 45px;
-        color: #7F171F;
-        font-weight: 500;
-     }
-    
-    /* SERVICE SECTION IMG */
-    
-     .service1-img-con {
-        margin: 20px 25px 20px 0;
-        width: 100%;
-        height: 450px;
-        object-fit: cover;
-        /* background-color: rgb(252, 192, 64); */
-        padding: 20px;
-     }
-    
-     .service1-img-con img {
-        width: 100%;
-        height: 100%;
-     }
-}
-
-@media screen and (max-width: 743px) {
-
-  .service1-container {
-      background-color: rgb(243, 243, 235);
-      width: 100%;
-      height: 1010px;
-      margin: 150px 0 50px 0;
-  }
-  
-  
-  .heading-service {
-      margin: 70px 20p 30px 45px;
-      color: #333300;
-      font-size: xx-large;
-      font-weight: 500;
-      text-transform: uppercase;
-  }
-  
-  .span-line {
-      background-color: green; 
-      width: 60px; 
-      height: 5px;
-      margin: 15px 20px 15px 45px;
-   }
-  
-   .service1-para {
-      margin: 30px 20px 15px 45px;
-      color: #7F171F;
-      font-weight: 500;
-   }
-  
-  /* SERVICE SECTION IMG */
-  
-   .service1-img-con {
-      margin: 20px 25px 20px 0;
-      width: 100%;
-      height: 450px;
-      object-fit: cover;
-      /* background-color: rgb(252, 192, 64); */
-      padding: 20px;
-   }
-  
-   .service1-img-con img {
-      width: 100%;
-      height: 100%;
-   }
-}
-
-@media screen and (max-width: 570px) {
-
-  .service1-container {
-      background-color: rgb(243, 243, 235);
-      width: 100%;
-      height: 145vh;
-      margin: 150px 0 50px 0;
-  }
-  
-  
-  .heading-service {
-      margin: 70px 20p 30px 45px;
-      color: #333300;
-      font-size: xx-large;
-      font-weight: 500;
-      text-transform: uppercase;
-  }
-  
-  .span-line {
-      background-color: green; 
-      width: 60px; 
-      height: 5px;
-      margin: 15px 20px 15px 45px;
-   }
-  
-   .service1-para {
-      margin: 30px 20px 15px 45px;
-      color: #7F171F;
-      font-weight: 500;
-   }
-  
-  /* SERVICE SECTION IMG */
-  
-   .service1-img-con {
-      margin: 20px 25px 20px 0;
-      width: 100%;
-      height: 450px;
-      object-fit: cover;
-      /* background-color: rgb(252, 192, 64); */
-      padding: 20px;
-   }
-  
-   .service1-img-con img {
-      width: 100%;
-      height: 100%;
-   }
-}
-
-@media screen and (max-width: 450px) {
-
-  .service1-container {
-      background-color: rgb(243, 243, 235);
-      width: 100%;
-      height: 153vh;
-      margin: 150px 0 50px 0;
-  }
-  
-  
-  .heading-service {
-      margin: 70px 20p 30px 45px;
-      color: #333300;
-      font-size: xx-large;
-      font-weight: 500;
-      text-transform: uppercase;
-  }
-  
-  .span-line {
-      background-color: green; 
-      width: 60px; 
-      height: 5px;
-      margin: 15px 20px 15px 45px;
-   }
-  
-   .service1-para {
-      margin: 30px 20px 15px 45px;
-      color: #7F171F;
-      font-weight: 500;
-   }
-  
-  /* SERVICE SECTION IMG */
-  
-   .service1-img-con {
-      margin: 20px 25px 20px 0;
-      width: 100%;
-      height: 400px;
-      object-fit: cover;
-      /* background-color: rgb(252, 192, 64); */
-      padding: 20px;
-   }
-  
-   .service1-img-con img {
-      width: 100%;
-      height: 100%;
-   }
-}
-
-@media screen and (max-width: 434px) {
-
-  .service1-container {
-      background-color: rgb(243, 243, 235);
-      width: 100%;
-      height: 147vh;
-      margin: 150px 0 50px 0;
-  }
-  
-  
-  .heading-service {
-      margin: 70px 20px 30px 30px;
-      color: #333300;
-      font-size: xx-large;
-      font-weight: 500;
-      text-transform: uppercase;
-  }
-  
-  .span-line {
-      background-color: green; 
-      width: 60px; 
-      height: 5px;
-      margin: 15px 20px 15px 35px;
-   }
-  
-   .service1-para {
-      margin: 30px 20px 15px 35px;
-      color: #7F171F;
-      font-weight: 500;
-   }
-  
-  /* SERVICE SECTION IMG */
-  
-   .service1-img-con {
-      margin: 10px 25px 20px 0;
-      width: 100%;
-      height: 370px;
-      object-fit: cover;
-      /* background-color: rgb(252, 192, 64); */
-      padding: 20px;
-   }
-  
-   .service1-img-con img {
-      width: 100%;
-      height: 100%;
-   }
-}
-
-
-@media screen and (max-width: 392px) {
-
-  .service1-container {
-      background-color: rgb(243, 243, 235);
-      width: 100%;
-      height: 145vh;
-      margin: 150px 0 50px 0;
-  }
-  
-  
-  .heading-service {
-      margin: 70px 20px 30px 25px;
-      color: #333300;
-      font-size: xx-large;
-      font-weight: 500;
-      text-transform: uppercase;
-  }
-  
-  .span-line {
-      background-color: green; 
-      width: 60px; 
-      height: 5px;
-      margin: 15px 20px 15px 25px;
-   }
-  
-   .service1-para {
-      margin: 30px 20px 15px 25px;
-      color: #7F171F;
-      font-weight: 500;
-   }
-  
-  /* SERVICE SECTION IMG */
-  
-   .service1-img-con {
-      margin: 20px 25px 20px 0;
-      width: 100%;
-      height: 350px;
-      object-fit: cover;
-      /* background-color: rgb(252, 192, 64); */
-      padding: 20px;
-   }
-  
-   .service1-img-con img {
-      width: 100%;
-      height: 100%;
-   }
-}
-
-@media screen and (max-width: 379px) {
-
-  .service1-container {
-      background-color: rgb(243, 243, 235);
-      width: 100%;
-      height: 145vh;
-      margin: 150px 0 50px 0;
-  }
-  
-  
-  .heading-service {
-      margin: 70px 20px 30px 25px;
-      color: #333300;
-      font-size: xx-large;
-      font-weight: 500;
-      text-transform: uppercase;
-  }
-  
-  .span-line {
-      background-color: green; 
-      width: 60px; 
-      height: 5px;
-      margin: 15px 20px 15px 25px;
-   }
-  
-   .service1-para {
-      margin: 30px 20px 15px 25px;
-      color: #7F171F;
-      font-weight: 500;
-   }
-  
-  /* SERVICE SECTION IMG */
-  
-   .service1-img-con {
-      margin: 20px 25px 20px 0;
-      width: 100%;
-      height: 320px;
-      object-fit: cover;
-      /* background-color: rgb(252, 192, 64); */
-      padding: 20px;
-   }
-  
-   .service1-img-con img {
-      width: 100%;
-      height: 100%;
-   }
-}
-
-@media screen and (max-width: 353px) {
-
-  .service1-container {
-      background-color: rgb(243, 243, 235);
-      width: 100%;
-      height: 150vh;
-      margin: 150px 0 50px 0;
-  }
-  
-  
-  .heading-service {
-      margin: 70px 20px 30px 25px;
-      color: #333300;
-      font-size: xx-large;
-      font-weight: 500;
-      text-transform: uppercase;
-  }
-  
-  .span-line {
-      background-color: green; 
-      width: 60px; 
-      height: 5px;
-      margin: 15px 20px 15px 25px;
-   }
-  
-   .service1-para {
-      margin: 30px 20px 15px 25px;
-      color: #7F171F;
-      font-weight: 500;
-   }
-  
-  /* SERVICE SECTION IMG */
-  
-   .service1-img-con {
-      margin: 20px 25px 20px 0;
-      width: 100%;
-      height: 320px;
-      object-fit: cover;
-      /* background-color: rgb(252, 192, 64); */
-      padding: 20px;
-   }
-  
-   .service1-img-con img {
-      width: 100%;
-      height: 100%;
-   }
-}
-
-@media screen and (max-width: 327px) {
-
-  .service1-container {
-      background-color: rgb(243, 243, 235);
-      width: 100%;
-      height: 157vh;
-      margin: 150px 0 50px 0;
-  }
-  
-  
-  .heading-service {
-      margin: 70px 20px 30px 25px;
-      color: #333300;
-      font-size: xx-large;
-      font-weight: 500;
-      text-transform: uppercase;
-  }
-  
-  .span-line {
-      background-color: green; 
-      width: 60px; 
-      height: 5px;
-      margin: 15px 20px 15px 25px;
-   }
-  
-   .service1-para {
-      margin: 30px 20px 15px 25px;
-      color: #7F171F;
-      font-weight: 500;
-   }
-  
-  /* SERVICE SECTION IMG */
-  
-   .service1-img-con {
-      margin: 15px 25px 15px 0;
-      width: 100%;
-      height: 320px;
-      object-fit: cover;
-      /* background-color: rgb(252, 192, 64); */
-      padding: 20px;
-   }
-  
-   .service1-img-con img {
-      width: 100%;
-      height: 100%;
-   }
-}
 
 /* Civil Work */
 
-@media screen and (max-width: 743px){
-   .civil-para-res {
-      margin-bottom: 0;
+
+
+@media only screen and (max-device-width: 480px) {
+
+   .service1-container {
+      background-color: rgb(243, 243, 235);
+      width: 100%;
+      height: auto;
+      margin: 150px 0 50px 0;
+  }
+  
+  
+  .heading-service {
+      margin: 70px  0 30px 30px;
+      color: #333300;
+      font-size: xx-large;
+      font-weight: 500;
+      text-transform: uppercase;
+  }
+  
+  .span-line {
+      background-color: green; 
+      width: 60px; 
+      height: 5px;
+      margin: 15px 0 15px 30px;
+   }
+  
+   .service1-para {
+      margin: 30px 0 15px 30px;
+      color: #7F171F;
+      font-weight: 500;
+   }
+  
+  /* SERVICE SECTION IMG */
+  
+   .service1-img-con {
+      margin: 20px auto 20px auto;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      /* background-color: rgb(252, 192, 64); */
+      padding: 20px;
+   }
+  
+   .service1-img-con img {
+      width: 100%;
+      height: 100%;
    }
 
-   .civil-img-con-res {
-      margin-top: 10px;
+
+}
+
+
+/* potrait */
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 645px) and (orientation:portrait) {
+   .service1-container {
+      background-color: rgb(243, 243, 235);
+      width: 100%;
+      height: auto;
+      margin: 150px 0 50px 0;
+  }
+  
+  
+  .heading-service {
+      margin: 70px  0 30px 30px;
+      color: #333300;
+      font-size: xx-large;
+      font-weight: 500;
+      text-transform: uppercase;
+  }
+  
+  .span-line {
+      background-color: green; 
+      width: 60px; 
+      height: 5px;
+      margin: 15px 0 15px 30px;
    }
+  
+   .service1-para {
+      margin: 30px 0 15px 30px;
+      color: #7F171F;
+      font-weight: 500;
+   }
+  
+  /* SERVICE SECTION IMG */
+  
+   .service1-img-con {
+      margin: 20px auto 20px auto;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      /* background-color: rgb(252, 192, 64); */
+      padding: 20px;
+   }
+  
+   .service1-img-con img {
+      width: 100%;
+      height: 100%;
+   }
+}
+
+/* Landspace */
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 645px) and (orientation:landscape) {
+   .service1-container {
+      background-color: rgb(243, 243, 235);
+      width: 100%;
+      height: auto;
+      margin: 150px 0 50px 0;
+  }
+  
+  
+  .heading-service {
+      margin: 70px  0 30px 30px;
+      color: #333300;
+      font-size: xx-large;
+      font-weight: 500;
+      text-transform: uppercase;
+  }
+  
+  .span-line {
+      background-color: green; 
+      width: 60px; 
+      height: 5px;
+      margin: 15px 0 15px 30px;
+   }
+  
+   .service1-para {
+      margin: 30px 0 15px 30px;
+      color: #7F171F;
+      font-weight: 500;
+   }
+  
+  /* SERVICE SECTION IMG */
+  
+   .service1-img-con {
+      margin: 20px auto 20px auto;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      /* background-color: rgb(252, 192, 64); */
+      padding: 20px;
+   }
+  
+   .service1-img-con img {
+      width: 100%;
+      height: 100%;
+   }
+
+}
+
+/* 646 < potrait */
+
+@media only screen and (min-device-width: 646px) and (max-device-width: 1024px) and (orientation:portrait) {
+   .service1-container {
+      background-color: rgb(243, 243, 235);
+      width: 100%;
+      height: auto;
+      margin: 150px 0 50px 0;
+  }
+  
+  
+  .heading-service {
+      margin: 70px  0 30px 30px;
+      color: #333300;
+      font-size: xx-large;
+      font-weight: 500;
+      text-transform: uppercase;
+  }
+  
+  .span-line {
+      background-color: green; 
+      width: 60px; 
+      height: 5px;
+      margin: 15px 0 15px 30px;
+   }
+  
+   .service1-para {
+      margin: 30px 0 15px 30px;
+      color: #7F171F;
+      font-weight: 500;
+   }
+  
+  /* SERVICE SECTION IMG */
+  
+   .service1-img-con {
+      margin: 20px auto 20px auto;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      /* background-color: rgb(252, 192, 64); */
+      padding: 20px;
+   }
+  
+   .service1-img-con img {
+      width: 100%;
+      height: 100%;
+   }
+
+}
+
+/* 646 < Landscape */
+
+@media only screen and (min-device-width: 646px) and (max-device-width: 1024px) and (orientation:landscape) {
+   .service1-container {
+      background-color: rgb(243, 243, 235);
+      width: 100%;
+      height: auto;
+      margin: 150px 0 50px 0;
+  }
+  
+  
+  .heading-service {
+      margin: 70px  0 30px 30px;
+      color: #333300;
+      font-size: xx-large;
+      font-weight: 500;
+      text-transform: uppercase;
+  }
+  
+  .span-line {
+      background-color: green; 
+      width: 60px; 
+      height: 5px;
+      margin: 15px 0 15px 30px;
+   }
+  
+   .service1-para {
+      margin: 30px 0 15px 30px;
+      color: #7F171F;
+      font-weight: 500;
+   }
+  
+  /* SERVICE SECTION IMG */
+  
+   .service1-img-con {
+      margin: 20px auto 20px auto;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      /* background-color: rgb(252, 192, 64); */
+      padding: 20px;
+   }
+  
+   .service1-img-con img {
+      width: 100%;
+      height: 100%;
+   }
+
+}
+
+/* 1024 < */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 2000px) and (orientation:landscape) {
+   .service1-container {
+      background-color: rgb(243, 243, 235);
+      width: 100%;
+      height: auto;
+      margin: 150px 0 50px 0;
+  }
+  
+  
+  .heading-service {
+      margin: 70px  0 30px 30px;
+      color: #333300;
+      font-size: xx-large;
+      font-weight: 500;
+      text-transform: uppercase;
+  }
+  
+  .span-line {
+      background-color: green; 
+      width: 60px; 
+      height: 5px;
+      margin: 15px 0 15px 30px;
+   }
+  
+   .service1-para {
+      margin: 30px 0 15px 30px;
+      color: #7F171F;
+      font-weight: 500;
+   }
+  
+  /* SERVICE SECTION IMG */
+  
+   .service1-img-con {
+      margin: 20px auto 20px auto;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      /* background-color: rgb(252, 192, 64); */
+      padding: 20px;
+   }
+  
+   .service1-img-con img {
+      width: 100%;
+      height: 100%;
+   }
+
 }
